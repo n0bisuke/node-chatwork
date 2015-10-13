@@ -1,0 +1,27 @@
+{
+  "name": "node-chatwork",
+  "version": "0.0.1",
+  "description": "chatwork api library for Node.js",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "babel-node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/n0bisuke/node-chatwork.git"
+  },
+  "author": "n0bisuke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n0bisuke/node-chatwork/issues"
+  },
+  "homepage": "https://github.com/n0bisuke/node-chatwork#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "superagent": "^1.4.0"
+  }
+}
